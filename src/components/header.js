@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 
 import './scss/header.scss'
+import 'typeface-inter'
 
 const Header = ({ siteTitle }) => (
   <header
