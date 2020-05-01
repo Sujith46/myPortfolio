@@ -1,0 +1,18 @@
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    transition: height .3s ease;
+  .identity {
+    display: block;
+  }
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 100%;
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
