@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <Layout>
       <Container>
-        <div>
+        <div className="contact-page">
             <h1>Contact Page</h1>
         </div>
       </Container>
