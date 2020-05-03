@@ -15,11 +15,11 @@
         margin: 0.5rem;
         width: 180px;
         .stack-name {
-          text-transform: uppercase;
-          text-transform: uppercase;
+          text-transform: capitalize;
           font-size: 1rem;
           text-align: center;
           margin: 1rem 0;
+          color: #798499;
         }
         &:hover{
             background: #343434;    

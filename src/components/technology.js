@@ -3,6 +3,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
 import '../components/scss/technology.scss'
+import Creative from './creativeStack'
 
 const Technology = () => {
     return (
@@ -12,7 +13,12 @@ const Technology = () => {
             </h3>
             <div className="web-technologies">
                 <Stack />
-              
+            </div>
+            <h3>
+                Creative Tools
+            </h3>
+            <div className="web-technologies">
+                <Creative />
             </div>
         </div>
     )
