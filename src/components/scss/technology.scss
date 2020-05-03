@@ -1,0 +1,30 @@
+.technology-stack {
+  .web-technologies {
+    .stack {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 2.5rem 0;
+      .stack-item {
+        background: #2a2a2a;
+        transition: all 0.2s ease;
+        display: block;
+        padding: 1rem 1.5rem;
+        border-radius: 6px;
+        box-shadow: 0.2rem 0.25rem 0.75rem 0 rgba(0, 0, 0, 0.1);
+        margin: 0.5rem;
+        width: 180px;
+        .stack-name {
+          text-transform: uppercase;
+          text-transform: uppercase;
+          font-size: 1rem;
+          text-align: center;
+          margin: 1rem 0;
+        }
+        &:hover{
+            background: #343434;    
+        }
+      }
+    }
+  }
+}

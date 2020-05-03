@@ -2,22 +2,37 @@
     display: flex;
     justify-content: space-between;
     transition: height .3s ease;
+    align-items: center;
   .identity {
     display: block;
+    .mouse-logo {
+      width: 60px;
+      margin-bottom: 0;
+    }
     a {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
+     
     }
   }
   .nav-links {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    
     height: 100%;
     a {
-      color: white;
+      color: #798499;
       text-decoration: none;
-      font-size: 1.2rem;
-      margin: 0 0.7em;
+      font-size: 1rem;
+      // padding: 0 0 0 2.8rem;
+      padding: 1rem;
+      font-weight: 600;
+      border-radius: 10px;
+      margin: 0 0 0 0.5rem;
+      &:hover {
+        background: rgba(0,0,0,.2);
+        color: #b3b9c5;
+      }
     }
   }
 }
