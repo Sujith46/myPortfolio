@@ -33,8 +33,12 @@ const Stack = (props, {data}) => {
                 data.placeHolderImage.edges.map(edge => 
                     (
                         <div className="stack-item">
-                            <Img fluid={edge.node.childImageSharp.fluid}/>
-                            <h3 className="stack-name">{edge.node.name}</h3>
+                            <div className="stack-logo">
+                                <Img fluid={edge.node.childImageSharp.fluid}/>
+                            </div>
+                            <div className="stack-detail">
+                             <h3 className="stack-name">{edge.node.name}</h3>
+                            </div>
                         </div>
                     ))
                    
