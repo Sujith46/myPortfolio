@@ -8,6 +8,13 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     `typeface-inter`,
+    `styled-components`,
+    {
+      resolve: `gatsby-source-medium`,
+      options: {
+        username: `@sujith46`,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
